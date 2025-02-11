@@ -1,0 +1,88 @@
+@media (min-width: 600px){
+    .header__logo{
+        display: none;
+    }
+    .visor{
+        height: 300px;
+    }
+    .visor__text{
+        display: none;
+    }
+    .visor__content{
+        width: 60%;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .subjects {
+        gap: 25px
+    }
+    .subject{
+        width: 180px;
+        height: 270px;
+    }
+    .footer{
+        display: none;
+    }
+    .footer__footer{
+        display: block;
+    }
+}
+@media (min-width: 768px){
+    .header__logo{
+        display: block;
+        padding-left: 20px;
+
+    }
+    .footer{
+        display: block;
+    }
+    .footer__footer{
+        display: block;
+    }
+    .visor__text{
+        display: block;
+    }
+}
+@media (min-width: 1024px){
+    .header__logo{
+        max-width: 100%;
+        align-content: center;
+        padding-left: 20px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        display: grid;
+        grid-template-columns: 80% 20%;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "visor header"
+        "cards cards"
+        "cursos cursos"
+        "footer footer" ;
+    }
+    .visor{
+        height: 400px;
+    }
+    .header{
+        display: block;
+    }
+    .nav{
+        display: block;
+    }
+    .nav__list{
+        display: block;
+    }
+    .header__icon{
+        font-size: 1.2rem;
+    }
+    .header__logo{
+        position: relative;
+        top: 350px;
+        font-size: 1.2rem;
+
+    }
+    .header__icon--user{
+        display: none;
+    }
+}

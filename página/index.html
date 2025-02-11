@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="css/all.css" />
+
+  <!-- Estilos css -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <title>Ribera Formación...</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- header -->
+    <header class="header">
+      <a href="#" class="header__logo">
+        <i class="fas fa-lightbulb header__icon"></i> Ribera Formación
+      </a>
+      <!-- Menu dentro del header -->
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#">home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">about</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">courses</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <i id="accountbtn" class="fas fa-user header__icon header__icon--user"></i>
+
+      <!-- Formulario desplegable -->
+      <section class="header-form" id="headerform">
+        <div id="closeform" class="header-form__close fas fa-times"></div>
+
+        <form class="login-form" action="">
+          <div class="login-form__inputs">
+            <input type="email" class="login-form__input" required placeholder="Introduce tu Email" class="subject" />
+
+            <input type="password" class="login-form__input" required placeholder="Introduce tu Password"
+              class="subject" />
+          </div>
+          <div class="login-form__confirm">
+            <div>
+              <input type="checkbox" name="" id="remember-me" />
+              <label class="login-form__label-check" for="remember-me">Recuerda mi Password</label>
+            </div>
+            <a href="#" class="login-form__confirm">Olvidaste tu Password?</a>
+          </div>
+          <input type="submit" value="Login now" class="login-form__btn" id="btnlogin" />
+        </form>
+      </section>
+    </header>
+
+    <!-- Visor -->
+    <section class="visor">
+      <div class="visor__content">
+        <h1 class="visor__title">
+          Tenemos los mejores cursos para tí
+        </h1>
+        <p class="visor__text">
+          Te estamos esperando, empieza hoy a crear tú futuro.
+        </p>
+        <button class="visor__btn"> Empezamos... </button>
+      </div>
+    </section>
+
+    <!-- Nuestros Contenidos -->
+    <section class="subject-container">
+
+      <h2 class="container__title">Nuestros Contenidos</h2>
+
+      <section class="subjects">
+        <article class="subject">
+          <img class="subject__img" src="./assets/images/subject-icon-1.png" alt="">
+          <h3 class="subject__title">Desarrollo Web</h3>
+          <p class="subject__text">4 Modulos</p>
+        </article>
+
+        <article class="subject">
+          <img class="subject__img" src="./assets/images/subject-icon-2.png" alt="">
+          <h3 class="subject__title">Desarrollo Móvil</h3>
+          <p class="subject__text">6 Modulos</p>
+        </article>
+
+        <article class="subject">
+          <img class="subject__img" src="./assets/images/subject-icon-3.png" alt="">
+          <h3 class="subject__title">Base de Datos</h3>
+          <p class="subject__text">2 Modulos</p>
+        </article>
+
+        <article class="subject">
+          <img class="subject__img" src="./assets/images/subject-icon-4.png" alt="">
+          <h3 class="subject__title">Geografía</h3>
+          <p class="subject__text">2 Modulos</p>
+        </article>
+
+        <article class="subject">
+          <img class="subject__img" src="./assets/images/subject-icon-5.png" alt="">
+          <h3 class="subject__title">Sanidad</h3>
+          <p class="subject__text">6 Modulos</p>
+        </article>
+
+        <article class="subject">
+          <img class="subject__img" src="./assets/images/subject-icon-6.png" alt="">
+          <h3 class="subject__title">Ingeniería</h3>
+          <p class="subject__text">2 Modulos</p>
+        </article>
+
+      </section>
+
+    </section>
+
+    <!-- Nuestros Cursos -->
+    <section class="courses-container">
+
+      <h2 class="container__title"> Nuestros Cursos </h2>
+      <section class="courses" id="courses">
+        <article class="course">
+          <div class="course__image">
+            <img src="./assets/images/course-1-1.png" alt="">
+            <h3 class="course__title">Desarrollo Web</h3>
+          </div>
+          <div class="slide">
+            <h3 class="slide__title">Desarrollo Web</h3>
+            <p class="slide__text">La gente ignora los diseños que ignoran a la gente</p>
+          </div>
+        </article>
+
+
+        <article class="course">
+          <div class="course__image">
+            <img src="./assets/images/course-1-2.png" alt="">
+            <h3 class="course__title">Desarrollo Web</h3>
+          </div>
+          <div class="slide">
+            <h3 class="slide__title">Desarrollo Web</h3>
+            <p class="slide__text">La gente ignora los diseños que ignoran a la gente</p>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course__image">
+            <img src="./assets/images/course-1-5.png" alt="">
+            <h3 class="course__title">Desarrollo Web</h3>
+          </div>
+          <div class="slide">
+            <h3 class="slide__title">Desarrollo Web</h3>
+            <p class="slide__text">La gente ignora los diseños que ignoran a la gente</p>
+          </div>
+        </article>
+      </section>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+      <section class="footer-container">
+
+        <ul class="footer__box footer__box--big">
+          <h3> <i class="fas fa-lightbulb"></i> Ribera Formación </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, voluptatem.</p>
+          <div class="footer__social-container">
+            <a href="#" class="footer__social fa-brands fa-facebook-square"></a>
+            <a href="#" class="footer__social fa-brands fa-twitter-square"></a>
+            <a href="#" class="footer__social fa-brands fa-instagram-square"></a>
+            <a href="#" class="footer__social fa-brands fa-linkedin"></a>
+          </div>
+        </ul>
+
+        <!--  <ul class="footer__box">
+          <h3 class="footer__title">Enlaces Rápidos</h3>
+          <li class="column__item"><a class="column__link" href="#" class="link">Home</a></li>
+          <li class="column__item"><a class="column__link" href="#" class="link">Nosotros</a></li>
+          <li class="column__item"><a class="column__link" href="#" class="link">Cursos</a></li>
+          <li class="column__item"><a class="column__link" href="#" class="link">Contactar</a></li>
+        </ul> -->
+
+        <ul class="footer__box">
+          <h3 class="footer__title">Enlaces Recientes</h3>
+          <li class="column__item"><a href="#" class="column__link">Centro de Ayuda</a></li>
+          <li class="column__item"><a href="#" class="column__link">Preguntas Frecuentes</a></li>
+          <li class="column__item"><a href="#" class="column__link">Contactanos</a></li>
+          <li class="column__item"><a href="#" class="column__link">Política de Privacidad</a></li>
+          <li class="column__item"><a href="#" class="column__link">Terminos de Uso</a></li>
+        </ul>
+
+        <ul class="footer__box footer__box--big">
+          <h3>Noticias</h3>
+          <p>Suscribete para recibir noticias</p>
+          <form action="">
+            <input type="email" name="" placeholder="Introduce tu correo" class="footer__input">
+            <input class="footer__btn" type="submit" value="Suscripción" class="btn">
+          </form>
+        </ul>
+      </section>
+      <hr>
+      <p class="footer__footer"> <span>Departamento de Informática</span> | IES Ribera del Tajo. </p>
+    </footer>
+
+  </div> <!-- Fin del Container -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
